@@ -1,17 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<!--  This source code is exported from pxCode, you can get more document from https://www.pxcode.io  -->
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+    <title>Brazos Valley Robotics</title>
 </head>
 
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+<body style="display: flex; flex-direction: column; margin-top: 50px;" id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+        <a class="navbar-brand" href="#">Brazos Valley Robotics</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#page-top">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sponsors">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-white"
+        style="height: 300px; margin-top: 50px; padding-top: 100px; background-image: url('./assets/team_victory.jpg'); background-position: center; background-repeat: no-repeat;">
+        <!-- <div class="container px-4 text-center">
+            <h1 class="fw-bolder">Welcome to Brazos Valley Robotics</h1>
+        </div> -->
+    </header>
+
+    <!-- Body -->
+    <div>
+        <section id="about-us">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>About Brazos Valley Robotics</h2>
+                        <p class="lead">Brazos Valley Robotics BEST Robotics team for Homeschooled students and students
+                            attending smaller Christian schools in grades 6-12 in the Bryan/College Station, TX area.
+                        </p>
+                        <p>Established in 2022 with 18 studentswe’re a fun energetic group that loves laughter,
+                            good times, and can’t miss out on making a good joke!
+
+                            Thank you to all the generous people and businesses
+                            who have greatly helped our team in many
+                            different ways, we really appreciate it!
+                            We also would like to thank BEST robotics for this fun
+                            learning opportunity and for all the supplies
+                            they’ve provided!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="sponsors">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Sponsors</h2>
+                        <p class="lead">
+                            Thank you to all the generous people and businesses
+                            who have greatly helped our team in many
+                            different ways, we really appreciate it!
+                            We also would like to thank BEST robotics for this fun
+                            learning opportunity and for all the supplies
+                            they’ve provided!</p>
+
+                    </div>
+                </div>
+
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                Frogslayer
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_Frogslayer_logo.png"></img>
+                            </div>
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                Biotin Games
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_BiotinGames_logo.png"></img>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                Avant Garge
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_AvantGarge_logo.png"></img>
+                            </div>
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                Hill Top Sales
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_HillTopSales_logo.png"></img>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                Iglesias Bautistas
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_IglesiasBautistas_logo.png"></img>
+                            </div>
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                Mile High Drones
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_MileHighDrones_logo.png"></img>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                One Fine Roast
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_OneFineRoast_logo.png"></img>
+                            </div>
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                Strong Surveying
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_Strong_Surveying.png"></img>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                Whimsy &amp; Wild
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_WhimsyAndWild_logo.png"></img>
+                            </div>
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                Xpedient Mail
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/sponsor_XpedientMail_logo.png"></img>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                BEST Robotics
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                                <img src="./assets/National BEST logo jpeg color.jpg"></img>
+                            </div>
+                            <div class="col-md-2" style="text-align: right; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                            </div>
+                            <div class="col-md-4" style="text-align: left; display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Contact us</h2>
+                        <ul>
+                            <li><a
+                                    href="https://instagram.com/brazosvalleyrobotics?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==">Instagram</a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://m.facebook.com/groups/brazosvalleyrobotics/?ref=share&mibextid=NSMWBT">Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-4">
+            <p class="m-0 text-center text-white">Copyright &copy; Brazos Valley Robotics 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
+        integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(".wrapper li").click(function () {
+            var classToToggle = $(this).data("toggle-class");
+            $(".wrapper section").css("display", "none");
+            $("." + classToToggle).css("display", "block");
+        });
+    </script>
 </body>
 
 </html>
