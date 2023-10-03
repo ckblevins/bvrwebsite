@@ -2,3 +2,24 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.sponsor-name {
+    text-align: right; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.sponsor-logo {
+    text-align: left;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.sponsor-logo img {
+    max-width: 300px;
+    max-height: 400px;
+}
